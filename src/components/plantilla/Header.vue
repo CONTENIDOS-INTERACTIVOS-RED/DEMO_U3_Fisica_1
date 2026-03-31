@@ -19,7 +19,7 @@ header.header.container-fluid(v-if="$route.name !== 'inicio' && $route.name !== 
         span.me-1 Ver contenido
         i(class="fas fa-angle-right")
   router-link(to="/")
-    img.header__logo(src="@/assets/template/logo.svg")
+    img.header__logo(src="@/assets/template/logo.png")
 
 </template>
 
@@ -61,7 +61,7 @@ export default {
     position: absolute
     right: 50%
     transform: translateX(50%)
-    width: 212px
+    width: 140px
   &__componente-formativo
     @media (max-width: $bp-max-xs)
       font-size: 0.8em
